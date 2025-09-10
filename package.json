@@ -1,0 +1,35 @@
+{
+  "name": "typescript-vmtdev",
+  "version": "1.0.0",
+  "description": "Repositorio con las practicas realizadas con TypeScript, bases para Angular",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.ts",
+    "clase001": "nodemon src/001-bases/index.ts",
+    "build": "rimraf ./dist && tsc && tsc-alias",
+    "start": "npm run build && node dist/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexyepez-dev/TypeScript-VmtDev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexyepez-dev/TypeScript-VmtDev/issues"
+  },
+  "homepage": "https://github.com/alexyepez-dev/TypeScript-VmtDev#readme",
+  "dependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "tsc-alias": "^1.8.16",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.9.2"
+  }
+}
