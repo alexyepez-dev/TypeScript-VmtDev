@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/index.ts",
     "clase001": "nodemon src/001-bases/index.ts",
+    "clase002": "nodemon src/002-clase/index.ts",
     "build": "rimraf ./dist && tsc && tsc-alias",
     "start": "npm run build && node dist/src/index.js"
   },
